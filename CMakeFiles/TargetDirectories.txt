@@ -1,0 +1,1 @@
+/home/vikiboy/Programming/colorsegmentation/CMakeFiles/IGVC.dir
