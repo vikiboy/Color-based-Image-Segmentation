@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(IGVC)
+find_package(OpenCV REQUIRED)
+include_directories({$OpenCV_INCLUDE_DIRS})
+add_executable( IGVC obstacle_segmentation.cpp )
+target_link_libraries( IGVC ${OpenCV_LIBS}) 
